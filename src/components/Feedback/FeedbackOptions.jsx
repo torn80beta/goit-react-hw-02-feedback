@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FeedbackButtons = ({
+const FeedbackOptions = ({
   incrementGoodValue,
   incrementNeutralValue,
   incrementBadValue,
@@ -18,4 +18,4 @@ const FeedbackButtons = ({
   </div>
 );
 
-export default FeedbackButtons;
+export default FeedbackOptions;
