@@ -5,14 +5,26 @@ const FeedbackOptions = ({
   incrementNeutralValue,
   incrementBadValue,
 }) => (
-  <div className="Feedback__Buttons">
-    <button type="button" onClick={incrementGoodValue}>
+  <div className="Feedback__Options">
+    <button
+      className="Feedback_Button"
+      type="button"
+      onClick={incrementGoodValue}
+    >
       Good
     </button>
-    <button type="button" onClick={incrementNeutralValue}>
+    <button
+      className="Feedback_Button"
+      type="button"
+      onClick={incrementNeutralValue}
+    >
       Neutral
     </button>
-    <button type="button" onClick={incrementBadValue}>
+    <button
+      className="Feedback_Button"
+      type="button"
+      onClick={incrementBadValue}
+    >
       Bad
     </button>
   </div>
